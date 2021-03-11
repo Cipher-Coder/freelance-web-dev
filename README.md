@@ -1,16 +1,14 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.com">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
+    <img alt="Mattaz Web Design" src="https://res.cloudinary.com/mattaz/image/upload/v1615427734/Projects/logoCut500_k0cxpy.png" width="60" />
   </a>
 </p>
 <h1 align="center">
-  Gatsby's default starter
+  Freelance Web Dev
 </h1>
 
-Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
-
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.com/docs/gatsby-starters/)._
+This is the repo for a side project for Freelancing Web Developers called [freelancingweb.dev](https://freelancingweb.dev). This project will be using [Gatsbyjs v3](https://www.gatsbyjs.com/) and I will be integrating a CMS to store data. Keep checking the domain to see when the project is finished!!
 
 ## 🚀 Quick start
 
