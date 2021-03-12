@@ -89,7 +89,7 @@ h1 {
   line-height: 1.1;
 }
 mark {
-  background-color: #ff0;
+  background-color: rgb(252, 252, 6);
   color: #000;
 }
 small {
