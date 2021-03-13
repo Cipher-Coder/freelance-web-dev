@@ -2,28 +2,36 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
 
+import shortLogo from "../images/logo3.png"
+
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
+      background: `#ced4da`,
+      marginBottom: `1rem`,
     }}>
     <div
       style={{
         margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
+        padding: `.5rem 1rem 0 1rem`,
       }}>
-      <h1 style={{ margin: 0 }}>
+      <h4 style={{ margin: 0 }}>
         <Link
           to="/"
           style={{
-            color: `white`,
+            color: `#9F3236`,
             textDecoration: `none`,
+            display: `inline-flex`,
           }}>
+          <img
+            src={shortLogo}
+            alt="Site Logo"
+            width="30"
+            style={{ paddingRight: `5px` }}
+          />
           {siteTitle}
         </Link>
-      </h1>
+      </h4>
     </div>
   </header>
 )
