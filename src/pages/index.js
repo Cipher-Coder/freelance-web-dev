@@ -4,7 +4,7 @@ import * as React from 'react'
 
 import Layout from '../components/Layout'
 import SEO from '../components/Seo'
-import backgroundImage from '../images/darkWebDev.svg'
+import backgroundImage from '../images/lightWebDev.svg'
 
 const IndexPage = () => (
   <Layout>
@@ -12,14 +12,12 @@ const IndexPage = () => (
     <div
       className="svg-background"
       style={{
-        backgroundColor: `#fff5f5`,
-        fliter: `hue-rotate(180deg) invert(93%)`,
+        backgroundColor: `#ffffff`,
       }}>
-      <img
-        src={backgroundImage}
-        alt="Sketch of catagories"
-        style={{ width: `100vw`, height: `100vh` }}
-      />
+      <object
+        data={backgroundImage}
+        alt="Map of topics"
+        style={{ width: `100vw`, height: `95vh` }}></object>
       {/* <StaticImage
       src="../images/darkWebDev.svg"
       quality={95}
