@@ -1,7 +1,7 @@
-import * as React from "react"
-import PropTypes from "prop-types"
+import * as React from 'react'
+import PropTypes from 'prop-types'
 
-import { Navbar, Nav, Form, FormControl, Button } from "react-bootstrap"
+import { Navbar, Nav, Form, FormControl, Button } from 'react-bootstrap'
 
 const Navigation = ({ siteTitle }) => (
   <>

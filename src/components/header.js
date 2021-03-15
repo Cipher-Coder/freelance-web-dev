@@ -1,8 +1,8 @@
-import * as React from "react"
-import PropTypes from "prop-types"
-import { Link } from "gatsby"
+import * as React from 'react'
+import PropTypes from 'prop-types'
+import { Link } from 'gatsby'
 
-import shortLogo from "../images/logo3.png"
+import shortLogo from '../images/logo3.png'
 
 const Header = ({ siteTitle }) => (
   <header
