@@ -5,14 +5,14 @@ function Footer() {
     <footer
       style={{
         textAlign: `center`,
-        backgroundColor: `#333`,
+        backgroundColor: `#343A40`,
         color: `#e2e2e2`,
         padding: `.9rem`,
         fontSize: `.75rem`,
       }}>
       © {new Date().getFullYear()}, Built with
       {` `}
-      <a className="footer-link" href="https://www.gatsbyjs.org">
+      <a className="footer-link" href="https://gatsbyjs.com">
         Gatsby
       </a>
       , By:{' '}
