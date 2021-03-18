@@ -25,7 +25,7 @@ const IndexPage = () => (
       style={{ height: `92vh`, width: `100vw` }}
     /> */}
       {/* <p>
-      <Link to="/page-2/">Go to page 2</Link>
+      <Link to="/contact/">Go to page 2</Link>
     </p> */}
     </div>
   </Layout>
