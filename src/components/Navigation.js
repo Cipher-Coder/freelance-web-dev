@@ -19,7 +19,7 @@ const Navigation = ({ siteTitle }) => (
       </Navbar.Brand>
       <Nav className="mr-auto">
         <Nav.Link href="/">Home</Nav.Link>
-        <Nav.Link href="#features">Features</Nav.Link>
+        <Nav.Link href="#about_us">About Us</Nav.Link>
         <Nav.Link href="/contact">Contact</Nav.Link>
       </Nav>
       <Form inline>
